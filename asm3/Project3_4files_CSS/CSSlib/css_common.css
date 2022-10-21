@@ -1,0 +1,63 @@
+html{
+	font-family: Arial, monospace;
+}
+body{
+	width: 90%;
+	height:auto;
+	margin: auto;
+}
+
+*{ box-sizing: border-box;
+}
+
+.row::after {
+	content: "";
+	clear: both;
+	display: table;
+}
+  
+[class*="col-"] {
+	float: left;
+	padding: 1px;
+}
+
+#menu ul{
+	display:block;
+	list-style-type: none;
+  	padding: 20px 0;
+	
+}
+#menu li{
+	display:inline-block;
+	text-align: center;
+}
+#menu a{
+	font-weight: bold;
+	text-transform:uppercase;
+	text-decoration: none;
+}
+
+#banner{
+	position:relative;
+}
+#banner img{
+	height: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
